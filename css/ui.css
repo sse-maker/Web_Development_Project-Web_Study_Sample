@@ -124,6 +124,7 @@ footer > a.instar:hover {background: url(../images/social_b_instar_hover.png) no
 .point_text strong {display: block; padding: 0 0 10px 46px; background: url(../images/point_bg.png) no-repeat; background-size: 40px; font-size: 14px; font-weight: 700; color: #3c4147;}
 .commbtn {width: 150px; display: inline-block; height: 35px; margin-top: 20px; font-size: 15px; line-height: 35px; border-radius: 5px; text-align: center;}
 .commbtn.pink {background: #f92d68; color: #fff;}
+.commbtn.gray {background: #3c4147; color: #fff;}
 .book_rollwrap {width: 954px; height: 150px; margin: 40px auto 0 auto; padding: 0 20px; position: relative;}
 .book_rollwrap > button {display: block; position: absolute; width: 20px; height: 100%; top: 0;}
 .book_rollwrap > button.roll_left {background: url(../images/btn_left.png) no-repeat center center; background-size: 20px; left: 0;}
@@ -132,3 +133,32 @@ footer > a.instar:hover {background: url(../images/social_b_instar_hover.png) no
 .book_rollwrap .book_roll ul {width: 1000%;}
 .book_rollwrap .book_roll ul li {float: left; width: 152px; text-align: center;}
 .book_rollwrap .book_roll ul li img {width: 100px;}
+.tit_faq {color: #fff; position: relative;}
+.tit_faq strong {font-size: 25px; padding-right: 10px;}
+.tit_faq span {font-size: 14px; font-weight: 400;}
+.tit_faq:before {content: ""; display: block; position: absolute; width: 120px; height: 150px; background: url(../images/faq_boy.png) no-repeat; right: 0px; top: 36px;}
+.accordio_box {margin-top: 170px;}
+.accordio_box ol li {width: 100%; background: #fff; border-top: 4px solid #ea657b;}
+.accordio_box ol li h4 {display: block; padding: 0px 20px 20px 0px; margin: 20px 20px 0 30px; cursor: pointer; background: url(../images/select_bullet_up.png) no-repeat right 11px; font-weight: 400; color: #3c4147;}
+.accordio_box ol li.on h4 {background: url(../images/select_bullet_down.png) no-repeat right 11px;}
+.accordio_box ol li h4 span {display: inline-block; margin-right: 10px; font-weight: 900;}
+.accordio_box ol li p {height: 0; visibility: hidden; opacity: 0;}
+.accordio_box ol li.on p {height: auto; padding: 30px 100px 70px 200px; background-color: #eee; background-size: 100px auto; background-repeat: no-repeat; visibility: visible; opacity: 1;}
+.accordio_box ol li:nth-of-type(1) p {background-image: url(../images/board_boy.png); background-position: 40px -1px;}
+.accordio_box ol li:nth-of-type(2) p {background-image: url(../images/read_boy.png); background-position: 40px 20px;}
+.accordio_box ol li:nth-of-type(3) p {background-image: url(../images/shopping_boy.png); background-position: 40px 13px;}
+.accordio_box ol li:nth-of-type(4) p {background-image: url(../images/meeting_boy.png); background-position: 40px 13px;}
+#menu4 .content_wrap {width: 800px; margin:100px auto 0 auto; padding: 30px; background: rgba(255, 255, 255, 0.7); border-radius: 5px;}
+#menu4 .content_wrap .form_tit {margin-bottom: 40px; font-size: 24px; font-weight: 700; color: #ea657b;}
+.formlist {padding-bottom: 150px; background: url(../images/contact_bg.png) no-repeat right bottom; background-size: 200px;}
+.formlist ul li {margin-bottom: 15px; position: relative; padding: 0 0 0 150px;}
+.formlist ul li label {display: block; width: 150px; position: absolute; left: 0; top: 0; font-size: 14px; color: #555;}
+.formlist ul li label sup {color: #ea657b;}
+.formlist ul li span {display: block;}
+.formlist ul li .inputbox {width: 100%; height: 40px; border: solid 1px #ddd; background: #fff;}
+.formlist ul li .textbox {width: 100%; height: 200px; border: solid 1px #ddd; background: #fff;}
+.formlist ul li input, .formlist ul li textarea {width: 100%; height: 100%;}
+.btn_box {width: 100%; margin-top: 20px; text-align: center;}
+.thankyou_message {position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); z-index: 999; display: none;}
+.thankyou_message > section > h1 {color: #59c3c3; font-size: 25px; font-weight: 700; margin-bottom: 20px;}
+.thankyou_message > section {width: 550px; margin: 10% auto; padding: 20px; border-radius: 5px; background: url(../images/contact_pop.jpg) no-repeat #fff right bottom; background-size: 240px; color: #3c4147;}
